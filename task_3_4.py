@@ -33,6 +33,9 @@ arr_t = np.array([i for i in np.linspace(t0, t1, 10000)])
 
 arr_x = A * np.exp(-gamma * arr_t) * np.cos(w * arr_t + fi)
 
-plt.plot(arr_t, arr_x)
+plt.xlabel("Time (t), sec.")
+plt.ylabel("Coordinate (x), m.")
 
+plt.plot(arr_t, arr_x)
+plt.grid()
 plt.savefig('plot_task_3_4.png')
