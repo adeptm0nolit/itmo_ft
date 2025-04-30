@@ -1,30 +1,26 @@
-import matplotlib
-
-matplotlib.use('Qt5Agg')
-
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-print('Введите m:')
+print('Enter m:')
 m = float(input())
 
-print('Введите k:')
+print('Enter k:')
 k = float(input())
 
-print('Введите b:')
+print('Enter b:')
 b = float(input())
 
-print('Введите x0:')
+print('Enter x0:')
 x0 = float(input())
 
-print('Введите V0:')
+print('Enter V0:')
 v0 = float(input())
 
-print('Введите t0:')
+print('Enter t0:')
 t0 = float(input())
 
-print('Введите t1:')
+print('Enter t1:')
 t1 = float(input())
 
 w0 = (k / m) ** 0.5
